@@ -1,17 +1,13 @@
 body{
-    padding: 10px 3%;
-    margin: 0 auto;
     font-family: sans-serif;
+    margin: 0;
 }
 #Pagina{
-    width: 1350px;
+    width: 100%;
     margin: 0 auto; 
 }
 #Encabezado{
     padding: 5px 3%;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 1px;
 }
 #Encabezado a{
     text-decoration: none;
@@ -76,7 +72,76 @@ body{
     cursor: pointer;
   }
 
+  #Contenido .Contenido {
+      padding: 3% 5%;
 
+  }
+  #Contenido .Contenido h3{
+      font-size: 25px;
+  }
+
+  .Fondo{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .banner{
+      width: 100%;
+      height: 350px;
+      animation: banner 10s infinite linear alternate;
+      background-size: 100% 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  @keyframes banner {
+    0%, 20%{
+          background-image: url(../Imagenes/Banner\ 1.jpg );
+    }
+    25%, 45%{
+        background-image: url(../Imagenes/Banner\ 2.jpg );
+    }
+    50%, 70%{
+        background-image: url(../Imagenes/Banner\ 3.jpg );
+    }
+    75%, 100%{
+        background-image: url(../Imagenes/Banner\ 4.jpg );
+    }
+      
+  }
+  .capa{
+      width: 100%;
+      height: 100%;
+      position:absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.3);
+  }
+  .info{
+      z-index: 1;
+      width: 100%;
+      max-width: 550px;
+      text-align: center;
+  }
+  .info h3{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.info p{
+    color: #c7c7c7;
+    line-height: 1.7;
+
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    background:#00aae4;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
+}
 
 #Pie-pagina{
     padding: 5px 20%;
