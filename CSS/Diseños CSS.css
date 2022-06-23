@@ -331,7 +331,6 @@ a.Actual{
     color: white;
   }
 
-
   #Form_registrate{
     margin: 8% auto;
     width: 400px;
@@ -358,7 +357,7 @@ a.Actual{
   padding-left: 30px;
   padding-right: 30px;
 }
-.botones, .botones a{
+.botones{
   text-decoration: none;
   background-color: #00aae4;
   border: none;
