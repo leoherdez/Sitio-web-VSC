@@ -15,21 +15,34 @@
 
             <div class="navbar">
 
-                <a href="index.html">
+                <a class="Inicio" href="index.html">
                     <img src="Imagenes/Logo-AEROVOLARE-UTILIZAR.png" alt="Logo" id="Logo">
                     <h1>AeroVolare</h1>
                 </a>
 
 
                 <div class="Ele_Menu">
-				    <a href="Subpaginas/Comunidad.html" class="Menu">Aeropuertos</a>
-				    <a href="Subpaginas/Biblioteca.html"class="Menu">Vuelos</a>
-                    <a href="Subpaginas/Noticias.html" class="Menu">Información</a>
-				    <a href="Subpaginas/Noticias.html" class="Menu">Noticias</a>
+				    <a href="Secundarias/Aeropuertos.html" class="Menu">Aeropuertos</a>
+				    <a href="Secundarias/Vuelos.html"class="Menu">Vuelos</a>
+                    <a href="Secundarias/Informacion.html" class="Menu">Información</a>
+				    <a href="Secundarias/Noticias.html" class="Menu">Noticias</a>
 			    </div>
 
                 <div id="LogIn">
-                    <input class="Login" type="button" value="Iniciar Sesion">
+                    <button class="Login">Iniciar Sesion</button>
+                    <div class="popup-wrapper">
+                        <div class="popup">
+                            <div class="popup-close">
+                                x
+                            </div>
+                            <div class="popup-content">
+                                <h3>Iniciar Sesion</h3>
+                                <input type="text" placeholder="Correo electronico">
+                                <input type="password" placeholder="Contraseña">
+                                <a id="Entrar"  href="#">Entrar</a>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 
@@ -47,7 +60,7 @@
                     </div>
                     <div class="info">
                         <h3>Bienvenidos</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, aspernatur praesentium! Ad obcaecati ipsum quidem dicta explicabo nisi reprehenderit, earum doloribus suscipit ut! Doloribus enim aliquam nihil eius esse ipsam!</p>
+                        <p>AeroVolare es una plataforma en la que puedes encontrar</p>
                         <a href="#">Ver mas</a>
                     </div>
 
@@ -121,6 +134,7 @@
         </div>
     
         <script src="JavaScript/kit fontaawesome.js" ></script>
+        <script src="JavaScript/popup.js"></script>
 
 
 
