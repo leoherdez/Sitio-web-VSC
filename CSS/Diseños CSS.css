@@ -100,22 +100,25 @@ a.Actual{
     position: relative;
 }
  
-.popup a {
+.popup .entrar {
     background: #00aae4;
     color: white;
     font-weight: 650;
     text-decoration: none;
-    padding: 6px 10px;
+    padding: 8px 10px;
     margin: 30px auto;
     display: block;
     width: 30%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
 
 .popup-content{
   height: 300px;
 }
  
-.popup a:hover {
+.popup .entrar:hover {
     background: #00abe4b0;
     transition: all 0.2s;
 }
@@ -145,8 +148,8 @@ a.Actual{
   color: white;
   margin-bottom: 7%;
 }
-#entrar{
-  margin-bottom: 10%;
+.mensaje{
+  display: block;
 }
 
   #Contenido .Contenido {
@@ -326,6 +329,56 @@ a.Actual{
     font-weight: bold;
     color: white;
   }
+
+
+  #Form_registrate{
+    margin: 8% auto;
+    width: 400px;
+    height: 500px;
+    background: white;
+    position: relative;
+  }
+  #encabezado_login h3{
+    text-align: center;
+  }
+
+  .campo{
+    float: right;
+  }
+  .fondo2 {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.formulario{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.botones, .botones a{
+  text-decoration: none;
+  background-color: #00aae4;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  margin: 12px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+}
+.botones:hover {
+  background: #00abe4b0;
+  transition: all 0.2s;
+}
+ 
+
+    
+
 
 
 

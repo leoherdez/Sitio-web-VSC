@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Diseños CSS.css">
+</head>
+<body>
+    <div class="fondo2">
+        
+    <div id="Form_registrate">
+        <div id="encabezado_login">
+            <h3>Registro cliente AeroVolare</h3>
+        </div>
+        <div class="formulario">
+        <form name ="formularioUsuario" method="get" onsubmit="return validacionDatosForm1()">
+        <p> Nombre: <input class="campo" type="text" name="nombre" id="nombre" required></p>
+        <p> Primer apellido: <input class="campo" type="text" name="apellido" id="apellido" required></p>
+        <p> Segundo apellido: <input class="campo" type="text" name="segundo_apellido" id="segundo_apellido" required></p>
+        <p> Teléfono de contacto: <input class="campo" type="text" name="telefono" id="telefono" required></p>
+        <p> Email <input class="campo" type="text" name="email" id="email" required></p>
+        <p> Tipo de tarjeta: <select class="campo" name="tarjeta" id="tarjeta" required>
+            <option value="">- Selecciona la tarjeta -</option>
+            <option value="1">Visa</option>
+            <option value="2">Crédito</option>
+            <option value="3">Débito</option></select>
+        </p>
+        <p> Número de tarjeta: <input class="campo" type="text" name="numero_tarjeta" id="numero_tarjeta" required></p>
+        <p> Nombre de usuario: <input class="campo" type="text" name="usuario" id="usuario" required></p>
+        <p> Contraseña: <input class="campo" type="text" name="contraseña" id="contraseña" required></p>
+        <p> Verificar contraseña: <input class="campo" type="text" name="verificar" id="verificar" required></p>
+        <div class="boton">
+            <input class="botones" id="boton" type="submit" value="Enviar">
+            <input class="botones" id="Borrar" type="reset" value="Borrar">
+            <a class="botones" href="../">Cancelar</a>
+
+        </div>
+      </form>
+    </div>
+    </div>
+</div>
+    <script src="../JavaScript/validar.js"></script>
+    
+</body>
+</html>
