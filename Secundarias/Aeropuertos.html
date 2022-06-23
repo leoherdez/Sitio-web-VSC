@@ -27,13 +27,38 @@
             </div>
 
             <div id="LogIn">
-                <input class="Login" type="button" value="Iniciar Sesion">
+                <button class="Login">Iniciar Sesion</button>
+                <div class="popup-wrapper">
+                    <div class="popup">
+                        <div class="popup-close">
+                            <i class="cerrar fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <div class="popup-content">
+                            <div id="encabezado_login">
+                                <h3>Iniciar Sesion</h3>
+                            </div>
+                            <div id="formulario">
+                                <form action="">
+                                    <input class="ingresar" type="text" placeholder="Correo electronico">
+                                    <input class="ingresar" type="password" placeholder="Contraseña">
+
+                                </form>
+                            </div>
+                            <div id="entrar">
+                                <a href="#">Entrar</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
 
             </div>
             
         </div>
 
     </div>
+
+    <script src="../JavaScript/popup.js"></script>
     
 </body>
 </html>
